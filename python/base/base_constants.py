@@ -1,0 +1,21 @@
+# Log text formatting and colouring ANSI escape codes
+ESC = chr(27)
+RBB = ESC + '[41;1m'
+GBB = ESC + '[42;1m'
+YBB = ESC + '[43;1m'
+BBB = ESC + '[44;1m'
+CBB = ESC + '[46;1m'
+RBT = ESC + '[31;1m'
+GBT = ESC + '[32;1m'
+YBT = ESC + '[33;1m'
+BBT = ESC + '[34;1m'
+MBT = ESC + '[35;1m'
+CBT = ESC + '[36;1m'
+RT  = ESC + '[31m'
+GT  = ESC + '[32m'
+YT  = ESC + '[33m'
+MT  = ESC + '[35m'        
+CT  = ESC + '[36m'        
+RESET = ESC + "[0m"
+OUT_OF_MEMORY = 1
+NORMAL        = 0
